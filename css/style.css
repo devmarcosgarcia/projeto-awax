@@ -337,3 +337,18 @@ section.default{
 .photo-area:hover .photo-info{
     display: flex;
 }
+
+
+/* Section Team*/
+
+.bg-team{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.section-team-area{
+    background-color: rgba(0, 0, 0, 0.651);
+   
+}
