@@ -442,3 +442,129 @@ section.bg-team{
 .section-team-social a:hover{
     background-color: #b28756;
 }
+
+
+
+/* Section Clients*/
+
+.section-clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-client{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-client img{
+    width: 150px
+}
+
+.section-client .client-name{
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-client .client-departament{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.section-client .aspas{
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.section-client .client-relato{
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}
+
+.section-clients .sliders-pointers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-top: 30px;
+}
+.section-clients .pointer{
+    width: 13px;
+    height: 13px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.section-clients .pointer.active{
+    background-color: #b28756;
+    
+}
+
+.section-clients-logos{
+    max-width: 880px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* Section Clients*/
+
+.section-prices{
+    display: flex;
+    justify-content: center;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    height: 340px;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.section-price:last-child{
+    margin-right: none;
+}
+
+.section-price p{
+    color: gray;
+    font-size: 12px;
+}
+
+.section-price h4{
+    font-size: 18px;
+}
+.section-price .preco{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.section-price .mes{
+    margin-bottom: 18px;
+}
+
+.section-price .button{
+    background-color: black;
+}
+
+.section-price .button:hover{
+    background-color: #b28756;
+}
