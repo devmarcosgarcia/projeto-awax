@@ -568,3 +568,135 @@ section.bg-team{
 .section-price .button:hover{
     background-color: #b28756;
 }
+
+/* Section Premium*/
+
+.section-premium{
+    display: flex;
+    justify-content: space-around;
+    max-width: 880px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.section-premium .left-side{
+    
+    margin: 10px;
+}
+
+.section-premium .left-side img{
+    width: 280px;
+    height: 300px;
+}
+
+.section-premium .right-side{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.section-premium .right-side h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.section-premium .right-side p{
+    margin-top: 8px;
+    font-size: 13px;
+    color: gray;
+}
+
+.divisoria hr{
+    max-width: 900px;
+    margin: auto;
+    border-color: rgba(248, 247, 247, 0.39);
+}
+
+.sliders-pointers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-top: 30px;
+}
+.pointer{
+    width: 13px;
+    height: 13px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.pointer.active{
+    background-color: #b28756;
+    
+}
+
+/* Section Some Facts*/
+
+.section-body .some-facts{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.section-body .fact{
+    padding: 25px;
+    
+}
+
+.section-body .fact h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #b28756;
+}
+
+.section-body .fact hr{
+    border-color: gray;
+    background-color: gray;
+    height: 5px;
+    width: 25px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-body .fact h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.section-body .fact p{
+    font-size: 12px;
+    
+    margin-bottom: 15px;
+
+}
+
+/* Section Socials*/
+
+.socials{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    max-width: 880px;
+    display: flex;
+    align-items: center;
+}
+
+.social .material-symbols-outlined{
+    font-size: 30px;
+    color: gray;
+    padding-right: 15px;
+}
+
