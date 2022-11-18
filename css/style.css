@@ -697,6 +697,52 @@ section.bg-team{
 .social .material-symbols-outlined{
     font-size: 30px;
     color: gray;
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
+.social p.title, 
+.social p{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 60px;
+}
+
+.social p{
+    margin-right: 30px;
+}
+
+.social .icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.social .icones.twitter{
+    background-color: #36c5ef;
+}
+.social .icones.linkedin{
+    background-color: #137eb4;
+}
+.social .icones.facebook{
+    background-color: #336296;
+}
+.social .icones.googleplus{
+    background-color: #e84138;
+}
+.social .icones.pinterest{
+    background-color: #b71d29;
+}
+
+.hr-social hr{
+    margin: auto;
+    border-color: rgba(248, 247, 247, 0.39);
+}
