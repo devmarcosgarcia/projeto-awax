@@ -711,6 +711,7 @@ section.bg-team{
 
 .social p{
     margin-right: 30px;
+    font-size: 11px;
 }
 
 .social .icones{
@@ -743,6 +744,42 @@ section.bg-team{
 }
 
 .hr-social hr{
-    margin: auto;
+    width: 100vw;
     border-color: rgba(248, 247, 247, 0.39);
+
 }
+
+
+/* Section Contact Us*/
+
+
+section.contact{
+    background-color: white;
+}
+
+section.contact p{
+    color: black;
+}
+
+.form-contact{
+    margin: auto;
+    text-align: center;
+}
+
+.form-contact input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+
+.form-contact#idName{
+    width: 250px;
+}
+
