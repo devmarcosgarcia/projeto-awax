@@ -762,24 +762,86 @@ section.contact p{
 }
 
 .form-contact{
+    max-width: 450px;
     margin: auto;
     text-align: center;
 }
 
 .form-contact input{
-    border-left: none;
-    border-right: none;
-    border-top: none;
+    border: none;
     margin-bottom: 20px;
     padding-bottom: 5px;
-
+    border-bottom: gray 1px solid;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
+}
+
+.form-contact #idName{
+    width: 210px;
+}
+
+.form-contact #idEmail{
+    width: 210px;
+}
+
+.form-contact #idSubject{
+    width: 425px;
+}
+
+.form-contact #idMenssage{
+    width: 425px;
+    height: 80px;
+}
+
+input.button{
+    color: white;
+    cursor: pointer;
+}
+
+/* Section MAP*/
+
+.section-map{
+    background-image: url(../media/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-map .section-map-area{
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map-info{
+    width: 50%;
+    padding: 30px;
+    background-color: white;
     color: gray;
 }
 
-.form-contact#idName{
-    width: 250px;
+.section-map-info-item{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
+.section-map-info-item-img{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.section-map-info-item-img img{
+    width: 18px;
+    
+}
