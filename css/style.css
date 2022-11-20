@@ -42,6 +42,11 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
+.menu-opener{
+    display: none;
+}
+
 .menu ul, .menu li{
     list-style: none;
 }
